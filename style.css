@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-size: 13px;
+    color: #000;
+    background-color: #ebe6e670;
+}
+
+
+/*头*/
+
+.header {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header .top {
+    height: 95px;
+    overflow: hidden;
+}
+
+.header .top .logo {
+    margin-top: 20px;
+    float: left;
+}
+
+.header .top .logo img {
+    height: 80px;
+    display: block;
+}
+
+.header .nav {
+    width: 1000px;
+    height: 37px;
+    margin-bottom: 6px;
+    background-color: #c12d22;
+}
+
+.header .nav ul {
+    width: 990px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.header .nav ul li {
+    text-align: center;
+    float: left;
+    height: 37px;
+    line-height: 37px;
+}
+
+.header .nav ul li a {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 210px;
+    display: block;
+    font-weight: bold;
+}
+
+.header .nav ul li a:hover {
+    color: #000;
+}
+
+.banner {
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.banner img {
+    width: 1000px;
+}
+
+
+/*中间内容*/
+
+.content {
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.tit {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #c12d22;
+    overflow: hidden;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.cont_con {
+    margin: 0 auto;
+    width: 1000px;
+    /* float: right; */
+    overflow: hidden;
+}
+
+.cont_con .title {
+    width: 1000px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #c12d22;
+    overflow: hidden;
+    border: 1px solid #b4b4b4;
+}
+
+.cont_con .title h3 {
+    float: left;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.cont_con .title .more {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    color: white;
+}
+
+.cont_con .title p {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.cont_con .title p a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+.cont_con .title p a:hover {
+    text-decoration: underline;
+}
+
+.cont_con .pic_show {
+    width: 1000px;
+    overflow: hidden;
+}
+
+.cont_con .pic_show ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.cont_con .pic_show li {
+    width: 230px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+.cont_con .pic_show li img {
+    width: 100%;
+    height: 250px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cont_con .pic_show li a:hover {
+    text-decoration: underline;
+}
+
+.cont_con .jianjie {
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.cont_con .jianjie .box {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.cont_con .jianjie .box img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.cont_con .jianjie .box p {
+    line-height: 40px;
+    text-indent: 24px;
+    font-size: 16px;
+}
+
+.cont_con .node h2 {
+    text-align: center;
+}
+
+.cont_con .node p {
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 28px;
+    margin: 10px 0;
+}
+
+.cont_con .node img {
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+    height: 400px;
+}
+
+
+/*底部*/
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    background-color: #c12d22;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .copyright p {
+    line-height: 2;
+}
+
+
+
+
+.jieshao .tuwen {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.spirit {
+    width: 740px;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spleft {
+    width: 480px;
+}
+
+.spleft li img {
+    width: 310px;
+    height: 450px;
+}
+
+.spright {
+    width: 240px;
+}
+
+.spright li h4 {
+    margin: 10px 0;
+    font-size: 21px;
+    color: chocolate;
+    text-align: center;
+}
+
+.spright li p {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.caixi .list {
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.caixi .list li {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.caixi .list .pic {
+    float: left;
+    width: 245px;
+    margin-right: 20px;
+}
+
+.caixi .list .pic img {
+    width: 245px;
+    height: 180px;
+}
+
+.caixi .list .pic h3 {
+    text-align: center;
+}
+
+.caixi .list p {
+    text-indent: 2em;
+    font-size: 18px;
+    line-height: 40px;
+}
